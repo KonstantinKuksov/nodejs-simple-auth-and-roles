@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-simple-auth-and-roles",
+  "version": "1.0.0",
+  "description": "simple NodeJS application for learnning basics of JWT authirization and user roles managment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstantinKuksov/nodejs-simple-auth-and-roles.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "mongodb",
+    "jwt",
+    "auth",
+    "roles"
+  ],
+  "author": "Konstantin Kuksov <kkuksov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonstantinKuksov/nodejs-simple-auth-and-roles/issues"
+  },
+  "homepage": "https://github.com/KonstantinKuksov/nodejs-simple-auth-and-roles#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.0",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.16"
+  }
+}
